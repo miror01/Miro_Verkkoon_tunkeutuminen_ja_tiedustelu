@@ -41,6 +41,6 @@ WebSDR: http://websdr.org/
 
 ADS-B Exchange: https://globe.adsbexchange.com/
 
-Flightradar 24: flightradar24.com
+Flightradar24: https://www.flightradar24.com/
 
 
