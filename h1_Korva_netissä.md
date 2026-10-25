@@ -10,9 +10,10 @@ Aloitin tehtävän valitsemalla WebSDR-sivulta Alankomaissa sijaitsevan radiovas
 <img width="1778" height="86" alt="image" src="https://github.com/user-attachments/assets/2127e2dc-b9b5-4327-b44d-3797b4be3087" />
 
 
-Aloitettuani radiovastaanottimen kuuntelemisen, kuului pelkkää särinää. Valitsin radiotavaksi "AM", ja särinää kuului edelleen. Sivulla näkyy alla olevassa kuvassa näkyvä "graafi" eri aaltotaajuuksista. Klikkasin siinä keltaisen/liilan kasautuman keskelle, koska ajattelin, että se tarkoittaa radiosignaaleja. Särinää kuului edelleen, mutta taustalta oli tunnistettavissa puhetta. Säädin kuvassa näkyvistä "+", "++", sekä "+++" napeista taajuutta pari pykälää korkeammalle, ja löysin taajuuden, jolla kuulin hyvin selkeästi puhetta ilman ärsyttävää taustasärinää, myöhemmin puhe vaihtui myös musiikiksi, eli oletan sen olevan joku radiokanava. Löysin oikean taajuuden 9627 kHz:stä, ja säädin "filter" valikosta kHz:n 13.53 kHz.
+Aloitettuani radiovastaanottimen kuuntelemisen, kuului pelkkää särinää. Valitsin radiotavaksi "AM", ja särinää kuului edelleen. Sivulla näkyy alla olevassa kuvassa näkyvä "graafi" eri aaltotaajuuksista. Klikkasin siinä keltaisen/liilan kasautuman keskelle, koska ajattelin, että se tarkoittaa radiosignaaleja. Särinää kuului edelleen, mutta taustalta oli tunnistettavissa puhetta. Säädin kuvassa näkyvistä "+", "++", sekä "+++" napeista taajuutta pari pykälää korkeammalle, ja löysin taajuuden, jolla kuulin hyvin selkeästi puhetta ilman ärsyttävää taustasärinää, myöhemmin puhe vaihtui myös musiikiksi, eli oletan sen olevan joku radiokanava. Löysin oikean taajuuden 9626.50 kHz:stä, ja säädin "filter" valikosta kHz:n 13.53 kHz.
 
-<img width="1104" height="423" alt="image" src="https://github.com/user-attachments/assets/795dc097-f837-415f-b6e4-7f322f93c32a" />
+<img width="1198" height="629" alt="image" src="https://github.com/user-attachments/assets/d8c1edc3-2938-4e19-8631-8a8370851fa0" />
+
 
 
 
