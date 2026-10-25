@@ -2,4 +2,5 @@
 
 Loin paintissa piirroksen sähkömagneettisesta janasta.
 
-<img width="964" height="656" alt="image" src="https://github.com/user-attachments/assets/e6f4c4c9-a75d-4e67-8a2b-b7ce5a0601a5" />
+<img width="854" height="520" alt="image" src="https://github.com/user-attachments/assets/87a7f876-410a-42c7-a730-9ec66c7dcaf9" />
+
