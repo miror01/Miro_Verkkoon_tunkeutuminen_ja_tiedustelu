@@ -25,11 +25,19 @@ Etsin toisen kanavan, jossa pystyin käyttämään toista modulaatiotapaa, kuin 
 
 ## c) ADS-B
 
+ADS-B järjestelmässä lentokoneet itse lähettävät sijainti, korkeus, sekä nopeustietojaan maassa olevilla vastaanottimille. Näiden avulla lentokoneista saa paljon erilaista tietoa internetinkin välityksellä.
+
 Valitsin nettisivulta Suomen päällä lentävän Finnairin koneen. Klikkasin siitä, ja pystyin heti tarkistelemaan koneen tietoja. Sen rekisteritunnus on OH-LZN, kutsutunnus on FIN2K, ja lentokoneen malli on Airbus A-321. Se lentää tämän kirjoittamisen hetkellä 5.1km korkeudessa, mutta sen nousunopeus on tällä hetkellä noin 500m minuutissa, eli se on havaintohetkellä nousussa ja nousee edelleen korkeudessa. Se lentää noin 670 kilometrin tuntinopeudella. ADS-B Exchange-sivulta en löytänyt muun muassa, mihin kone oli matkalla, joten menin itselle tutulle nettisivulle Flightradar, josta paljastui, että kone on matkalla Saksaan, Frankfurtiin.
 
 <img width="1430" height="907" alt="image" src="https://github.com/user-attachments/assets/272be525-51ca-404f-900c-3bc522aeef48" />
 
 
 <img width="1711" height="741" alt="image" src="https://github.com/user-attachments/assets/d2d0da76-a801-4b65-adcb-2291b3328352" />
+
+## Lähteet)
+Tero Karvinen - Verkkoon tunkeutuminen ja tiedustelu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/ Luettu 25.10.2026
+WebSDR: http://websdr.org/
+ADS-B Exchange: https://globe.adsbexchange.com/
+Flightradar 24: flightradar24.com
 
 
