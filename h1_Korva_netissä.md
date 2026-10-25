@@ -10,10 +10,17 @@ Aloitin tehtävän valitsemalla WebSDR-sivulta Alankomaissa sijaitsevan radiovas
 <img width="1778" height="86" alt="image" src="https://github.com/user-attachments/assets/2127e2dc-b9b5-4327-b44d-3797b4be3087" />
 
 
-Aloitettuani radiovastaanottimen kuuntelemisen, kuului pelkkää särinää. Valitsin radiotavaksi "AM", ja särinää kuului edelleen. Sivulla näkyy alla olevassa kuvassa näkyvä "graafi" eri aaltotaajuuksista. Klikkasin siinä keltaisen/liilan kasautuman keskelle, koska ajattelin, että se tarkoittaa radiosignaaleja. Särinää kuului edelleen, mutta taustalta oli tunnistettavissa puhetta. Säädin kuvassa näkyvistä "+", "++", sekä "+++" napeista taajuutta pari pykälää korkeammalle, ja löysin taajuuden, jolla kuulin hyvin selkeästi puhetta ilman ärsyttävää taustasärinää, myöhemmin puhe vaihtui myös musiikiksi, eli oletan sen olevan joku radiokanava. Löysin oikean taajuuden 9626.50 kHz:stä, ja säädin "filter" valikosta kHz:n 13.53 kHz.
+Aloitettuani radiovastaanottimen kuuntelemisen, kuului pelkkää särinää. Valitsin modulaatioksi "AM", ja särinää kuului edelleen. Sivulla näkyy alla olevassa kuvassa näkyvä "graafi" eri aaltotaajuuksista. Klikkasin siinä keltaisen/liilan kasautuman keskelle, koska ajattelin, että se tarkoittaa radiosignaaleja. Särinää kuului edelleen, mutta taustalta oli tunnistettavissa puhetta. Säädin kuvassa näkyvistä "+", "++", sekä "+++" napeista taajuutta pari pykälää korkeammalle, ja löysin taajuuden, jolla kuulin hyvin selkeästi puhetta ilman ärsyttävää taustasärinää, myöhemmin puhe vaihtui myös musiikiksi, eli oletan sen olevan joku radiokanava. Löysin oikean taajuuden 9626.50 kHz:stä, ja säädin "filter" valikosta kHz:n 13.53 kHz, tämä tarkoittaa ilmeisesti suodattimen leveyttä.
 
 <img width="1198" height="629" alt="image" src="https://github.com/user-attachments/assets/d8c1edc3-2938-4e19-8631-8a8370851fa0" />
 
+Laskin aallonpituuden laskemalla valonnopeuden jaettuna taajuus hertseinä. Tuloksena sain aallonpituudeksi noin 31.2 metriä.
+
+## b) Moduwhat?
+
+Etsin toisen kanavan, jossa pystyin käyttämään toista modulaatiotapaa, kuin AM. Löytämisessä kesti hetki, tuntuu, että AM on yleisimmin käytetty modulaatio näissä tapauksissa. Löysin kuitenkin kanavan, jossa taas klikkasin keskelle keltaista kasautumaa graafissa, valitsin modulaatioksi FM, ja säädin taajuutta aina yhden yksikön, ja jopa kymmenesosayksikön kerrallaan, ja löysin taajuuden, jolla ääni kuului selkeästi.
+
+<img width="1496" height="534" alt="image" src="https://github.com/user-attachments/assets/dc37d7c9-2e2b-413c-99f3-61c71e43b50d" />
 
 
 
