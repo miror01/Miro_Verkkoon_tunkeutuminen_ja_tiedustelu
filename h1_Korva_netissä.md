@@ -36,8 +36,11 @@ Valitsin nettisivulta Suomen päällä lentävän Finnairin koneen. Klikkasin si
 
 ## Lähteet)
 Tero Karvinen - Verkkoon tunkeutuminen ja tiedustelu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/ Luettu 25.10.2026
+
 WebSDR: http://websdr.org/
+
 ADS-B Exchange: https://globe.adsbexchange.com/
+
 Flightradar 24: flightradar24.com
 
 
