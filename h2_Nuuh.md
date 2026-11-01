@@ -67,3 +67,19 @@ Tehtävää varten, tarkistin ekana MAC-osoitteen taas `Endpoints`-välilehdelt�
 
 
 <img width="1140" height="732" alt="image" src="https://github.com/user-attachments/assets/f7dee556-8171-4125-873b-84fa2ee078e7" />
+
+## h) Weppipalvelin
+
+Kirjoitin suodattimeksi `tls.handshake.extensions_server_name`, ja tuloksena näkyi mahdollisia webbiosotteita, joilla on surffattu.
+
+<img width="793" height="369" alt="tls" src="https://github.com/user-attachments/assets/04d1f6b2-427a-44da-8310-56f270bea06c" />
+
+## i) Analyysi.
+
+Aloitin taas oman liikenteeni sieppaamisen samalla tavalla kuten aiemmin, ja avasin testauksen vuoksi menemällä wikipedian verkkosivuille. Wiresharkista näkyy selkeästi verkkoliikenteen eri vaiheet, kuten ensimmäinen DNS-kysely wikipedian osoitteesta. Seuraavaksi on ensimmäinen kättely TCP-yhteyden muodostamista varten. TCP-protokolla käyttää kolmivaiheista kättelyä TCP-yhteyden muodostamista varten. Seuraavaksi yhteys salataan TLS-protokollalla.
+
+Näiden avulla on helppoa havainnollistaa, miten verkkosivun avaaminen koostuu eri vaiheista, ja miten ne toteutuu. 
+
+<img width="959" height="425" alt="analyysi" src="https://github.com/user-attachments/assets/a85b92ef-019b-442b-8e35-e8dddcaa68e3" />
+
+
