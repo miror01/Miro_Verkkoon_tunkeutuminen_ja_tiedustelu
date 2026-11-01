@@ -31,3 +31,6 @@ Testasin nyt aiempaa `ping`-komentoa uudestaan, ja packet loss oli 100%. Tästä
 ## c) Wireshark
 
 Wiresharkin voi asentaa linuxissa komennolla `sudo apt install wireshark`. Minulla on wireshark kalissa jo asennettuna, ja käyttäjäni on lisättynä wireshark-ryhmään, joten käynnistin wiresharkin kalissa yksinkertaisella komennolla `wireshark`. Valitsin verkkoliitännän `eth0`, ja loin verkkoon liikennettä. Pingasin googlea komennolla `ping 8.8.8.8`, ja pystyin tarkastelemaan Wiresharkista paketteja.
+
+<img width="574" height="392" alt="wireshark" src="https://github.com/user-attachments/assets/90d6779d-fa40-4fe4-91d2-c23d5b5468de" />
+
