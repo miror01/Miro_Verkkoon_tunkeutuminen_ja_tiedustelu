@@ -82,4 +82,13 @@ Näiden avulla on helppoa havainnollistaa, miten verkkosivun avaaminen koostuu e
 
 <img width="959" height="425" alt="analyysi" src="https://github.com/user-attachments/assets/a85b92ef-019b-442b-8e35-e8dddcaa68e3" />
 
+## Lähteet)
+
+Tero Karvinen: Verkkoon tunkeutuminen ja tiedustelu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+
+Karvinen 2025: Wireshark - Getting Started: https://terokarvinen.com/wireshark-getting-started/ Luettu 1.11.2026
+
+Karvinen 2025: Network Interface Names on Linux: https://terokarvinen.com/network-interface-linux/ Luettu 1.11.2026
+
+W3Schools Mac Address Lookup: https://www.w3schools.com/tools/tool_mac_lookup.php
 
