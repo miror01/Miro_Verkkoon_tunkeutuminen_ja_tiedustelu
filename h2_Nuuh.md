@@ -54,3 +54,7 @@ Latasin tehtävään tarkoitetun tiedoston Kalin kautta verkkosivuilta. Avasin s
 <img width="643" height="426" alt="image" src="https://github.com/user-attachments/assets/b3590465-f876-484a-8b10-5ef257b8448a" />
 
 `Statistics`-valikossa on useita käteviä työkaluja. `Endpoints`-kohdasta ainakin näin, että eri IPv4-osoitteita oli 7.
+
+`Protocol Hierarchy`-välilehdeltä nähdään käytössä olevat protokollat.
+
+
