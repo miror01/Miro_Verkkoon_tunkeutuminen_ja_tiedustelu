@@ -47,3 +47,6 @@ Kuvassa laatikoituna näkyy protokollat, joita on käytetty.
 * Tokaa kerrosta, siis Internet-kerrosta, vastaa kuvassa sitä kolmas rivi. `Internet Protocol Version 4`, eli IPv4, näyttää IP-osoitteet.
 * Kolmasta kerrosta eli kuljetuskerrosta, vastaa neljäs rivi. `User Datagram Protocol`, eli UDP, on toinen kuljetuskerroksen protokolla TCP:n lisäksi datan siirtoa varten.
 * Viimeinen kerros on sovelluskerros. Sitä vastaa kuvassa alin rivi, eli `Domain Name SYstem (query)`. Käyttää siis DNS-palvelua, jonka tehtävä on muuttaa verkkotunnukset IP-osoitteiksi.
+
+## e) Mitäs tuli surffattua?
+Latasin tehtävään tarkoitetun tiedoston Kalin kautta verkkosivuilta. Avasin sen Wiresharkissa painamalla `File`, ja `Open`. Tutkin kaappausta, ja avasin kätevän tulkinta-ikkunan Wiresharkissa `Statistics`-kohdasta, josta valitsin `Capture File Properties`. Tästä näin kätevästi tietoja, kuten että kaapattiin 283 pakettia, ja kaappaus kesti 7 sekuntia.
