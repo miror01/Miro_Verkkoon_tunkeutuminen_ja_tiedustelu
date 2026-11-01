@@ -25,3 +25,5 @@ Verkkoyhteyden katkaiseminen on tuttua hommaa jo aiemmilta kursseilta, ja hyvin 
 
 Testasin nyt aiempaa `ping`-komentoa uudestaan, ja packet loss oli 100%. Tästä näemme, että paketit eivät enää mene läpi, joten verkkoyhteys on katkaistu oikein. Verkkoyhteyden palauttamiseen vaihdoin tilan Network-asetuksista takaisin tilaan `NAT`.
 
+<img width="430" height="305" alt="image" src="https://github.com/user-attachments/assets/939e0dd6-09ef-43d2-b9df-6be4cdc7f48f" />
+
