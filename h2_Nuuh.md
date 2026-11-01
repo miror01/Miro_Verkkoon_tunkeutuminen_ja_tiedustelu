@@ -34,3 +34,16 @@ Wiresharkin voi asentaa linuxissa komennolla `sudo apt install wireshark`. Minul
 
 <img width="574" height="392" alt="wireshark" src="https://github.com/user-attachments/assets/90d6779d-fa40-4fe4-91d2-c23d5b5468de" />
 
+## d) Oikeesti TCP/IP
+
+Pingasin uusiksi komennolla `ping google.com`, jotta DNS-palvelinta joudutaan käyttämään selvittääkseen, mikä ip-osoite google.com:lla on. Valitsin DNS-paketin ja tarkastelin sen tietoja.
+
+TCP/IP-pinossa on neljä kerrosta, ja kun tehdään DNS-pyyntö, nämä kaikki on helposti eroteltavissa ja selitettävissä.
+
+<img width="959" height="385" alt="wireshark2" src="https://github.com/user-attachments/assets/6863f9e2-0442-4164-be26-c70b46a4504b" />
+
+Kuvassa laatikoituna näkyy protokollat, joita on käytetty. 
+* TCP/IP-pinon ensimmäistä kerrosta, verkkoliitäntäkerrosta, vastaa kuvassa toka rivi, `Ethernet II`. Siinä näkyy MAC-osoitteet, jotka ovat ensimmäisen kerroksen tehtävä.
+* Tokaa kerrosta, siis Internet-kerrosta, vastaa kuvassa sitä kolmas rivi. `Internet Protocol Version 4`, eli IPv4, näyttää IP-osoitteet.
+* Kolmasta kerrosta eli kuljetuskerrosta, vastaa neljäs rivi. `User Datagram Protocol`, eli UDP, on toinen kuljetuskerroksen protokolla TCP:n lisäksi datan siirtoa varten.
+* Viimeinen kerros on sovelluskerros. Sitä vastaa kuvassa alin rivi, eli `Domain Name SYstem (query)`. Käyttää siis DNS-palvelua, jonka tehtävä on muuttaa verkkotunnukset IP-osoitteiksi.
