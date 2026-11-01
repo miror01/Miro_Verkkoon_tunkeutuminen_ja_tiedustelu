@@ -58,3 +58,12 @@ Latasin tehtävään tarkoitetun tiedoston Kalin kautta verkkosivuilta. Avasin s
 `Protocol Hierarchy`-välilehdeltä nähdään käytössä olevat protokollat.
 
 <img width="761" height="344" alt="protocolhierarchy" src="https://github.com/user-attachments/assets/30c8317b-37dd-4961-b52a-9c4258ffb8f1" />
+
+## g) Verkkokortin merkki
+
+Tehtävää varten, tarkistin ekana MAC-osoitteen taas `Endpoints`-välilehdeltä Wiresharkissa. Käytin w3schools.com:in MAC-address lookup- palvelua johon kirjoitin löytyneen MAC-osoitteen, ja löysin valmistajan QUEM/KVM.
+
+<img width="540" height="324" alt="endpoints" src="https://github.com/user-attachments/assets/486c6477-1eaa-4f26-8c64-1599038c79b1" />
+
+
+<img width="1140" height="732" alt="image" src="https://github.com/user-attachments/assets/f7dee556-8171-4125-873b-84fa2ee078e7" />
