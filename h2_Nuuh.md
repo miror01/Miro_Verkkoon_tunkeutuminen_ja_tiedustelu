@@ -21,7 +21,7 @@ Debian sekä Kali asennettuna jo Virtualboxissa. Käytän tällä hetkellä kurs
 ## b) Ei voi kalastaa
 Verkkoyhteyden katkaiseminen on tuttua hommaa jo aiemmilta kursseilta, ja hyvin yksinkertaista. Aloitin tehtävän testaamalla verkkoyhteyttä komennolla `ping 1.1.1.1`. Paketit meni kohteeseen, ja packet lossia ei ollut joten verkkoyhteys on päällä. Seuraavaksi katkaisin verkkoyhteyden menemällä VirtualBoxin asetuksiin, ja napsautin Network-kohdasta adapterin tilan `Not attached`.
 
-<img width="424" height="412" alt="image" src="https://github.com/user-attachments/assets/32f8cef7-8fb2-42cb-88dd-1a7422bab4ef" />
+<img width="524" height="411" alt="image" src="https://github.com/user-attachments/assets/b87ddba9-14ac-4c36-a03c-82b4510abdeb" />
 
 Testasin nyt aiempaa `ping`-komentoa uudestaan, ja packet loss oli 100%. Tästä näemme, että paketit eivät enää mene läpi, joten verkkoyhteys on katkaistu oikein. Verkkoyhteyden palauttamiseen vaihdoin tilan Network-asetuksista takaisin tilaan `NAT`.
 
