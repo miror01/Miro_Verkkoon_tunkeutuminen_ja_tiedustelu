@@ -57,4 +57,4 @@ Latasin tehtävään tarkoitetun tiedoston Kalin kautta verkkosivuilta. Avasin s
 
 `Protocol Hierarchy`-välilehdeltä nähdään käytössä olevat protokollat.
 
-
+<img width="761" height="344" alt="protocolhierarchy" src="https://github.com/user-attachments/assets/30c8317b-37dd-4961-b52a-9c4258ffb8f1" />
