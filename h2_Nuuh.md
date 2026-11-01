@@ -50,3 +50,5 @@ Kuvassa laatikoituna näkyy protokollat, joita on käytetty.
 
 ## e) Mitäs tuli surffattua?
 Latasin tehtävään tarkoitetun tiedoston Kalin kautta verkkosivuilta. Avasin sen Wiresharkissa painamalla `File`, ja `Open`. Tutkin kaappausta, ja avasin kätevän tulkinta-ikkunan Wiresharkissa `Statistics`-kohdasta, josta valitsin `Capture File Properties`. Tästä näin kätevästi tietoja, kuten että kaapattiin 283 pakettia, ja kaappaus kesti 7 sekuntia.
+
+<img width="643" height="426" alt="image" src="https://github.com/user-attachments/assets/b3590465-f876-484a-8b10-5ef257b8448a" />
