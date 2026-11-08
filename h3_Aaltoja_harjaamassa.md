@@ -84,5 +84,12 @@ Bitit ja tauot näkyy signaalin alapuolella URH:ssa, kuten kuvasta näkee, ja ko
 Myös asetuksesta vasemmalla näkee että Bits/Symbol: 1. Eli 1 bitti per symboli.
 
 
+## Lähteet
 
+Terokarvinen.com Kurssisivu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/ Luettu 8.11.2026
 
+Hubacek 2019: Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs. Katsottavissa: https://youtu.be/sbqMqb6FVMY?t=199. Katsottu 8.11.2026
+
+Cornelius 2022: Decode 433.92 MHz weather station data. Luettavissa: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Luettu 8.11.2026
+
+rtl_433 Ohjekirja. Luettavissa: https://github.com/merbanan/rtl_433. Luettu 8.11.2026
