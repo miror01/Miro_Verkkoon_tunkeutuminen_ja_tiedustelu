@@ -29,7 +29,7 @@ Asensin rtl_433:n Kaliin komennolla `sudo apt-get install rtl-433`. Seuraavaksi 
 
 ## c) Automaattinen analyysi
 
-Latasin Kalin kautta C-tehtävässä mainitun tiedoston. Siirryin kalissa Downloads-hakemistoon ja ajoin siellä analyysin komennolla `rtl_433 -r Converted_433.92M_2000k.cs8`.
+Latasin Kalin kautta C-tehtävässä mainitun tiedoston. Siirryin kalissa Downloads-hakemistoon, jossa uusi ladattu tiedostoni sijaitsee, ja ajoin siellä analyysin komennolla `rtl_433 -r Converted_433.92M_2000k.cs8`.
 
 <img width="706" height="365" alt="h3_2" src="https://github.com/user-attachments/assets/d1b5e81e-47d0-481c-a191-3d2b596a4a0b" />
 
