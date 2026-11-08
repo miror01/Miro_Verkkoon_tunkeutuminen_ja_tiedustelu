@@ -36,3 +36,26 @@ Latasin Kalin kautta C-tehtävässä mainitun tiedoston. Siirryin kalissa Downlo
 Komento toimi. Ohjelma onnistui saamaan selville tallennetusta radiosignaalista erilaisia tietoja, esimerkiksi laitteen, protokollan, tilan, jne, esimerkiski "Off" tarkoittaa laitteen pois päältä kytkemistä.
 
 ## d) Too complex 16?
+
+Asensin ensiksi samalla tavalla tehtävän tiedoston kurssin verkkosivuilta Kalin kautta, Kalin Downloads-hakemistoon.
+
+Koska tehtävässä pitää muuttaa tiedosto rhl_433:n ymmärtämään muotoon nimetään se uudestaan. Downloads-hakemistossa kopioin tiedoston uudella nimellä komennolla `cp`.
+
+Käytin komentoa `cp Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s Uusi_433.92M_2000k.cs8`. Tiedostonimessä täytyy olla taajuus jotta rtl_433 pystyy lukemaan sitä oikein.
+
+Ajoin komennon `rtl_433 -r Uusi_433.92M_2000k.cs8`. Tulosteesta paljastui, että tiedoston nimen kanssa venkslaaminen toimi, ja saamme tulkittavaa dataa. Tuloste on identtinen aiemman tehtävän kanssa.
+
+<img width="709" height="379" alt="h3_3" src="https://github.com/user-attachments/assets/581caaef-1c3f-445d-9003-6b2c3a8d8216" />
+
+## e) Ultimate
+
+Käytin kurssin kotisivujen tehtäväkohtaisista vinkeistä löytyvää ohjetta, eli asennus muodossa  
+`sudo apt-get update
+$ sudo apt-get -y install pipx
+$ pipx install urh
+$ pipx ensurepath
+sulje ja avaa terminaali
+$ urh
+URH graafinen käyttöliittymä aukeaa`
+
+
