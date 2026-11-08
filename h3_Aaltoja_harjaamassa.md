@@ -22,9 +22,9 @@
 
 Asensin rtl_433:n Kaliin komennolla `sudo apt-get install rtl-433`. Seuraavaksi ajoin komennon `rtl_433` josta paljastui versio 25.12.
 
-<img width="499" height="242" alt="h3_0" src="https://github.com/user-attachments/assets/f08d49c6-21cf-4b1b-83cc-c80468196582" />
+<img width="499" height="342" alt="h3_0" src="https://github.com/user-attachments/assets/f08d49c6-21cf-4b1b-83cc-c80468196582" />
 
-<img width="551" height="242" alt="h3_1" src="https://github.com/user-attachments/assets/15b80b67-ea2e-4c66-b94a-7c61ee6e063b" />
+<img width="551" height="342" alt="h3_1" src="https://github.com/user-attachments/assets/15b80b67-ea2e-4c66-b94a-7c61ee6e063b" />
 
 
 ## c) Automaattinen analyysi
