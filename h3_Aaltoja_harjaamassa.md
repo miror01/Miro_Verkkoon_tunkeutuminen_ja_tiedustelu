@@ -51,11 +51,17 @@ Ajoin komennon `rtl_433 -r Uusi_433.92M_2000k.cs8`. Tulosteesta paljastui, että
 
 Käytin kurssin kotisivujen tehtäväkohtaisista vinkeistä löytyvää ohjetta, eli asennus muodossa  
 `sudo apt-get update
-$ sudo apt-get -y install pipx
-$ pipx install urh
-$ pipx ensurepath
+
+ sudo apt-get -y install pipx
+
+ pipx install urh
+
+ pipx ensurepath
+
 sulje ja avaa terminaali
-$ urh
+
+ urh
+
 URH graafinen käyttöliittymä aukeaa`
 
 
