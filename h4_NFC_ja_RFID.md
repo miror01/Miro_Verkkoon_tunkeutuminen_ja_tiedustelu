@@ -21,6 +21,6 @@ Komentojen rakenne perustuu kentistä. Neljä ensimmäistä listasta, eli CLA, I
 | INS | Kertoo suoritettavan komennon |
 | P1 | Komennon ensimmäinen parametri |
 | P2 | Komennon toinen parametri |
-| Lc | Ilmoittaa lähetettävän datan pituuden |
-| Data | Varsinainen lähetettävä tieto |
-| Le | Ilmoittaa, kuinka paljon vastausdataa odotetaan |
+| Lc | Kertoo lähetettävän datan pituuden |
+| Data | Lähetettävä tieto |
+| Le | Kertoo kuinka paljon vastausdataa odotetaan |
