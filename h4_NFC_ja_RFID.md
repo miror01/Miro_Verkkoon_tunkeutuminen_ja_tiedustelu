@@ -9,11 +9,11 @@ Aika itsestään selvää mutta en myöskään koskaan jätä puhelintani pois s
 
 ## b) APDU-komentojen rakenne
 
-APDU, eli **Application Protocol Data Unit**, on viestiformaatti, joka tarkoittaa komentoja ja vastauksia, joita muun muassa älypuhelimet ja kortit käyttävät kommunikoikseen keskenään.
+APDU, eli **Application Protocol Data Unit**, on viestiformaatti, joka tarkoittaa komentoja ja vastauksia, joita muun muassa älypuhelimet ja kortit käyttävät kommunikoidakseen keskenään.
 
 NFC-tekniikan kommunikaatiossa on aina kaksi puolta, aloitteentekijä ja kohde, vaikkapa puhelin ja kortti. Tekniikka perustuu yksinkertaiseen pyyntöön/komentoon ja vastaukseen, jota voi verrata esimerkiksi HTTP-protokollan pyyntö/vastaus-formaattiin. Puhelin lähettää vaikkapa kortille APDU-komennon, jonka kortti käsittelee, ja palauttaa puhelimelle sitten APDU-vastauksen.
 
-Komentojen rakenne perustuu kentistä. Neljä ensimmäistä kenttää listasta, eli CLA, INS, P1, ja P2 muodostaa headerin, joka on pakollinen jokaiseen APDU-komentoon. Loput kolme eli Lc, Data, ja Le taas muodostavat bodyn, ja ovat valinnaisia, riippuen komennosta.
+Komentojen rakenne perustuu kenttiin. Neljä ensimmäistä kenttää listasta, eli CLA, INS, P1, ja P2 muodostaa headerin, joka on pakollinen jokaiseen APDU-komentoon. Loput kolme eli Lc, Data, ja Le taas muodostavat bodyn, ja ovat valinnaisia, riippuen komennosta.
 
 | Kenttä | Käyttötarkoitus |
 |---|---|
