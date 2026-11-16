@@ -35,3 +35,9 @@ Ranskalainen tietoturvayritys Quarkslab löysi kiinalaisen Shanghai Fudan Microe
 Tutkija löysi salaisen avaimen joka liittyi takaoveen, se oli sama jokaisessa kyseisen korttimallin kortissa. Sen avulla pystyttiin murtamaan korttien salausavaimet, ja kloonaus mahdollistui, vaatien yleensä vain muutaman minuutin fyysisen kortin kanssa.
 
 Tämä on mielestäni hyvä uutinen muistuttamaan RFID-tekniikan tietoturvariskeistä. Ongelma ei ole aina käyttäjässä, vaan se voi sijaita myös laitteistossa.
+
+## Lähteet
+
+* Tero Karvinen 2026: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+* Application Protocol Data Unit (APDU). Luettavissa: https://www.cardlogix.com/glossary/apdu-application-protocol-data-unit-smart-card/ Luettu 16.11.2026.
+* Major Backdoor in Millions of RFID Cards Allows Instant Cloning. Luettavissa: https://www.securityweek.com/major-backdoor-in-millions-of-rfid-cards-allows-instant-cloning/ Luettu 16.11.2026
