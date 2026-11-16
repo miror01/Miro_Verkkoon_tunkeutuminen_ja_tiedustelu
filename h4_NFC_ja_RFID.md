@@ -1,6 +1,6 @@
 ## a) Käytössäni olevia RFID-tuotteita
 
-Itselläni oikeastaan ainoa yleisesti käytössäni oleva RFID/NFC-tuote on minun puhelimeni. Käytän sillä päivittäin Apple Payn -lähimaksuominaisuutta, jonka takia pankkikortti jää usein kotiin. Olen saanut Apple Payn kautta pankkikorttini puhelimeen. Apple Pay käyttää NFC-tekniikkaa muodostaakseen yhteyden maksupäätteen kanssa. NFC on RFID-tekniikkaa käyttävä hyvin lyhyen kantaman (korkeintaan muutama cm) langaton tiedonsiirtotekniikka.
+Itselläni oikeastaan ainoa yleisesti käytössäni oleva RFID/NFC-tuote on minun puhelimeni. Käytän sillä päivittäin Apple Payn -lähimaksuominaisuutta, jonka takia pankkikortti jää usein kotiin, sillä se on digitaalisen puhelimessani Apple Walletissani. Apple Pay käyttää NFC-tekniikkaa muodostaakseen yhteyden maksupäätteen kanssa, NFC on RFID-tekniikkaa käyttävä hyvin lyhyen kantaman (korkeintaan muutama cm) langaton tiedonsiirtotekniikka joka mahdollistaa puhelimen ja maksupäätteen kommunikoinnin lyhyellä etäisyydellä.
 
 Suojautuminen tämän kanssa on varsin yksinkertaista. NFC-tekniikka toimii vain todella lyhyellä etäisyydellä, joten sitä on vaikea ulkopuolisen hyväksikäyttää. Apple Payllä on myös muita suojautumistekniikoita, muun muassa se vaatii minulta aina Face ID:n avulla tunnistautumisen ennen maksun suorittamista, ja pankkikortin tiedot eivät välity maksupäätteelle, sillä Apple Pay käyttää ns erillistä "maksutunnistetta" kortin numeron sijaan. 
 
