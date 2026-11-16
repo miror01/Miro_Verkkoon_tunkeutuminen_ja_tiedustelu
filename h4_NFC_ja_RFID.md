@@ -13,7 +13,7 @@ APDU, eli **Application Protocol Data Unit**, on ymmärtääkseni ns "viestiform
 
 NFC-tekniikan kommunkaatiossa on aina kaksi puolta, aloitteentekijä ja kohde, vaikkapa puhelin ja kortti. Tekniikka perustuu yksinkertaiseen pyyntöön/komentoon ja vastaukseen, jota voi verrata esimerkiksi HTTP-protokollan pyyntö/vastaus-formaattiin. Puhelin lähettää vaikkapa kortille APDU-komennon, jonka kortti käsittelee, ja palauttaa puhelimelle sitten APDU-vastauksen.
 
-Komentojen rakenne perustuu kentistä. Neljä ensimmäistä listasta, eli CLA, INS, P1, ja P2 muodostaa headerin, joka on pakollinen jokaiseen APDU-komentoon, ja loput kolme eli Lc, Data, ja Le taas muodostavat bodyn, ja ovat enemmän tilanneriippuvaisia.
+Komentojen rakenne perustuu kentistä. Neljä ensimmäistä listasta, eli CLA, INS, P1, ja P2 muodostaa headerin, joka on pakollinen jokaiseen APDU-komentoon. Loput kolme eli Lc, Data, ja Le taas muodostavat bodyn, ja ovat enemmän tilanneriippuvaisia.
 
 | Kenttä | Käyttötarkoitus |
 |---|---|
