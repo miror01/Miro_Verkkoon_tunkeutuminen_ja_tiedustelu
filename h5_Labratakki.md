@@ -14,7 +14,7 @@ Se toimi. Avasin uuden terminaalin kalissa ja loin SSH-yhteyden uudestaan. Siell
 
 Kokeilin yhteydet komennolla `pingall` jossa kaikki pingit meni läpi, kun tuloste oli `Results: 0% dropped (6/6 received)`. 
 
-<img width="269" height="216" alt="h5_3" src="https://github.com/user-attachments/assets/6a522778-a60e-4315-8905-7e3d3e2de37c" />
+<img width="369" height="316" alt="h5_3" src="https://github.com/user-attachments/assets/6a522778-a60e-4315-8905-7e3d3e2de37c" />
 
 Yritin avata koneen h1 terminaalin komennolla `xterm h1`, mutta sain virheilmoituksen. Löysin ratkaisuksi kokeilla aiempaa "sudo mn" komentoa -E parametrilla, joten kokeilin sitä. Kirjoitin mininettiin komennon `exit` ja kokeilin komentoa uudestaan, nyt kaikki toimii. 
 
