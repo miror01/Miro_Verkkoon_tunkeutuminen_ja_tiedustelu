@@ -33,15 +33,15 @@ on itse hyökkäys.
 
 Seuraavaksi siirryin h1-terminaaliin, josta koitin ottaa ssh-yhteyttä h2:een. Sain ohjeissakin näkyvän tulosteen.
 
-<img width="702" height="411" alt="h5_6" src="https://github.com/user-attachments/assets/e87ae112-1851-43db-a2ac-3777f3117289" />
+<img width="702" height="711" alt="h5_6" src="https://github.com/user-attachments/assets/e87ae112-1851-43db-a2ac-3777f3117289" />
 
 Kaikki toimii, seuraavaksi poistin vanhan avaimen h1:stä komennolla `ssh-keygen -R h2`, ja loin uuden yhteyden `ssh h2`. Nyt, h1 terminaalissa näyttää siltä, että olisi h2:ssa, ja näen tulosteen h3:n sshesamessa.
 
-<img width="620" height="302" alt="h5_7" src="https://github.com/user-attachments/assets/07f96d25-b0d0-431c-a848-894abcc535c0" />
+<img width="620" height="702" alt="h5_7" src="https://github.com/user-attachments/assets/07f96d25-b0d0-431c-a848-894abcc535c0" />
 
 Myös Wiresharkissa näkyy.
 
-<img width="652" height="303" alt="h5_8" src="https://github.com/user-attachments/assets/fb906679-d1c7-4635-82a9-c5aa6058ed49" />
+<img width="652" height="703" alt="h5_8" src="https://github.com/user-attachments/assets/fb906679-d1c7-4635-82a9-c5aa6058ed49" />
 
 Tässä siis h3 alkoi lähettää vääriä ARP-vastauksia h1:lle ja h2:lle, joissa se ilmoitti MAC-osoitteet väärin. Seurauksena h1 ja h2 tallensivat tiedot myös väärin, ja alkoivat lähettää liikennettä h3:n kautta. Kyseessä
 on tunnettu "Man in the Middle"-tyylinen hyökkäys. Kun loin h1:ltä yhteyttä h2:een, se menikin h3:n sshesamen kautta.
