@@ -18,12 +18,12 @@ Kokeilin yhteydet komennolla `pingall` jossa kaikki pingit meni läpi, kun tulos
 
 Yritin avata koneen h1 terminaalin komennolla `xterm h1`, mutta sain virheilmoituksen. Löysin ratkaisuksi kokeilla aiempaa "sudo mn" komentoa -E parametrilla, joten kokeilin sitä. Kirjoitin mininettiin komennon `exit` ja kokeilin komentoa uudestaan, nyt kaikki toimii. 
 
-<img width="553" height="568" alt="h5_4" src="https://github.com/user-attachments/assets/5ef71518-7bc7-484e-9555-e9d1dbd708de" />
+<img width="753" height="768" alt="h5_4" src="https://github.com/user-attachments/assets/5ef71518-7bc7-484e-9555-e9d1dbd708de" />
 
 
 Avasin myös h3-koneen komennolla `xterm h3`. Mutta siirryin takas h1-terminaaliin. Ajoin siellä komennon `arp -n` MAC-osoitteiden selvittämiseksi. Sitten valmistelin h3-koneen komennolla `sysctl -w net.ipv4.ip_forward=1`. Se mahdollistaa IP-reitittämisen. Seuraavaksi ajoin komennot `iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-ports 22`, sekä `tcpdump -i h3-eth0 -w arp-p.pcap &`.
 
-<img width="823" height="454" alt="h5_5" src="https://github.com/user-attachments/assets/ef2276cd-bb9c-4c23-905e-ab96530bb071" />
+<img width="823" height="654" alt="h5_5" src="https://github.com/user-attachments/assets/ef2276cd-bb9c-4c23-905e-ab96530bb071" />
 
 
 Sitten käynnistin wiresharkin komennolla `wireshark &`, ja painoin enteriä jolla wireshark aukesi, en löytänyt ohjeissa olevaa "h1_eth0" verkkoa, mutta ainoa vaihtoehto oli `h3_eth0`, joten valitsin sen. Palasin h3-
