@@ -78,7 +78,7 @@ Tässä tapahtumaketju on siis:
 Avasin 3 uutta terminaalia, h1, h2, ja h3. h1-terminaalissa käynnistin TCP-palvelimen komennolla `python3 tcp_server.py`, ja h2-terminaalilla käynnistin h2:n palvelimen asiakkaaksi komennolla `python3 tcp_client.py`.
 Terminaaleissa näkyy "Hello from Host 1" ja "Hello from Host 2", eli yhteys toimi.
 
-<img width="497" height="301" alt="h5_12" src="https://github.com/user-attachments/assets/10e1be3c-4eaa-460b-a49d-2131d9599c9f" />
+<img width="697" height="401" alt="h5_12" src="https://github.com/user-attachments/assets/10e1be3c-4eaa-460b-a49d-2131d9599c9f" />
 
 Seuraavaksi suoritin h3:lla komennon `sudo python3 sniff_tcp_session.py`. Loin yhteyden uudestaan h2-terminaalissa, ja nyt h3 näki myös tapahtumat. Yritin ajaa myös hijack-skriptin, mutta h1, ja h2 välisissä TCP-yhteyksissä yhteys sulkeutuu automaattisesti ensimmäisten "Hello" viestien jälkeen, joten en osaa toteuttaa sitä. En tiedä miten edetä.
 
