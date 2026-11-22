@@ -86,13 +86,13 @@ Seuraavaksi suoritin h3:lla komennon `sudo python3 sniff_tcp_session.py`. Loin y
 
 ## c) TCP SYN-Flood
 
-Tätä en enää saanut toimimaan yritin suorittaa hyökkäystä `02-SDN_DDoS_Simulation-tryout`-hakemistossa, mutta jumitti heti ekaan komentoon ja mikään ei tehoa.
+Tätä en enää saanut toimimaan yritin suorittaa hyökkäystä `02-SDN_DDoS_Simulation-tryout`-hakemistossa, mutta jumitti heti ekaan komentoon ja mikään ei tehoa. Pyörin tehtävissä ympyrää useita tunteja ja tuntuu, että ohjeet ovat liian sekavat itselleni ymmärtämään. 
 
 <img width="1050" height="707" alt="h5_15" src="https://github.com/user-attachments/assets/1b71ae06-9a73-4800-a915-80a16adb1f08" />
 
 Yritin myös toista terminaalia jossa suoritin komennon `PYTHONPATH=. ryu-manager main.py` ohjeiden mukaan, mutta se ei toiminut myöskään.
 
-Hyökkäys tarkoittaa kuitenkin DDOS-hyökkäystä. Sen tarkoituksena on lähettää suuri määrä SYN-paketteja(aloituspaketteja) palvelimelle, muttei lähetä ACK-pakettia, jolla yhteys muodostettaisiin. Palvelimelle kasaantuu siis valtava määrä puoliksi avoimia yhteyksiä, jotka jumitta<vat palvelimen.
+Hyökkäys tarkoittaa kuitenkin DDOS-hyökkäystä. Sen tarkoituksena on lähettää suuri määrä SYN-paketteja(aloituspaketteja) palvelimelle, muttei lähetä ACK-pakettia, jolla yhteys muodostettaisiin. Palvelimelle kasaantuu siis valtava määrä puoliksi avoimia yhteyksiä, jotka jumittavat palvelimen.
 
 ## Lähteet.
 
