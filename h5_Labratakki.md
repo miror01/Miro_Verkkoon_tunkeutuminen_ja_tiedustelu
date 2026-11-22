@@ -58,14 +58,14 @@ Palasin Mininet-terminaaliini ja purkasin paketin komennolla `tar -xzf labs.tar.
 
 Siirryin Mininet-koneella oikeaan hakemistoon komennolla `cd 01-Network-Security-Lab/`, Sieltä siirryin vielä scripts-hakemistoon komennolla `cd scripts`, ja ajoin komennon `sudo python3 hub_topo.py`. 
 
-<img width="796" height="252" alt="h5_10" src="https://github.com/user-attachments/assets/f3077e9d-1f83-459a-afe0-bbec6141cf82" />
+<img width="796" height="352" alt="h5_10" src="https://github.com/user-attachments/assets/f3077e9d-1f83-459a-afe0-bbec6141cf82" />
 
 
 Seuraavaksi yritin avata h1 terminaalin komennolla `xterm h1`, mutta komento ei toiminut. Menin yhden vaiheen taaksepäin komennolla `exit` ja kokeilin uudestaan -E parametrillä, siis `sudo -E python3 hub_topo.py`. Nyt toimi. Seuraavaksi avataan h1 ja h2 terminaalit. Ajoin h1-terminaalissa komennon `python3 sniff_icmp.py`, ja h2-terminaalilla ajoin komennon `ping 10.0.0.1`. H2:n ping-tulosteet näkyi MYÖS h1-terminaalilla.
 
 Seuraavaksi avasin h3-terminaalin ja suoritin siellä `python3 spoof_icmp.py`. h2-terminaalissa ajoin pingin uudestaan, ja näin paketit h3-terminaalissa. Ilmeisesti toimii.
 
-<img width="711" height="368" alt="h5_11" src="https://github.com/user-attachments/assets/7b2285c1-cda3-477b-9fe2-5560605c4b7e" />
+<img width="811" height="568" alt="h5_11" src="https://github.com/user-attachments/assets/7b2285c1-cda3-477b-9fe2-5560605c4b7e" />
 
 Tässä tapahtumaketju on siis: 
 * h2 lähetti pingauspyynnön
@@ -78,7 +78,7 @@ Tässä tapahtumaketju on siis:
 Avasin 3 uutta terminaalia, h1, h2, ja h3. h1-terminaalissa käynnistin TCP-palvelimen komennolla `python3 tcp_server.py`, ja h2-terminaalilla käynnistin h2:n palvelimen asiakkaaksi komennolla `python3 tcp_client.py`.
 Terminaaleissa näkyy "Hello from Host 1" ja "Hello from Host 2", eli yhteys toimi.
 
-<img width="697" height="401" alt="h5_12" src="https://github.com/user-attachments/assets/10e1be3c-4eaa-460b-a49d-2131d9599c9f" />
+<img width="897" height="601" alt="h5_12" src="https://github.com/user-attachments/assets/10e1be3c-4eaa-460b-a49d-2131d9599c9f" />
 
 Seuraavaksi suoritin h3:lla komennon `sudo python3 sniff_tcp_session.py`. Loin yhteyden uudestaan h2-terminaalissa, ja nyt h3 näki myös tapahtumat. Yritin ajaa myös hijack-skriptin, mutta h1, ja h2 välisissä TCP-yhteyksissä yhteys sulkeutuu automaattisesti ensimmäisten "Hello" viestien jälkeen, joten en osaa toteuttaa sitä. En tiedä miten edetä.
 
