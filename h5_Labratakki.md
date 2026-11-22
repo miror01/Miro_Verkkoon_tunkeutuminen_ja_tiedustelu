@@ -12,9 +12,14 @@ Se toimi. Avasin uuden terminaalin kalissa ja loin SSH-yhteyden uudestaan. Siell
 
 <img width="388" height="194" alt="h5_2" src="https://github.com/user-attachments/assets/d839c7f4-2137-4e0d-bef9-c1b41385d11f" />
 
-Kokeilin yhteydet komennolla `pingall` jossa kaikki pingit meni läpi, kun tuloste oli `Results: 0% dropped (6/6 received)`. Yritin avata koneen h1 terminaalin komennolla `xterm h1`, mutta sain virheilmoituksen. Löysin ratkaisuksi kokeilla aiempaa "sudo mn" komentoa -E parametrilla, joten kokeilin sitä. Kirjoitin mininettiin komennon `exit` ja kokeilin komentoa uudestaan, nyt kaikki toimii. 
+Kokeilin yhteydet komennolla `pingall` jossa kaikki pingit meni läpi, kun tuloste oli `Results: 0% dropped (6/6 received)`. 
 
 <img width="269" height="116" alt="h5_3" src="https://github.com/user-attachments/assets/6a522778-a60e-4315-8905-7e3d3e2de37c" />
+
+Yritin avata koneen h1 terminaalin komennolla `xterm h1`, mutta sain virheilmoituksen. Löysin ratkaisuksi kokeilla aiempaa "sudo mn" komentoa -E parametrilla, joten kokeilin sitä. Kirjoitin mininettiin komennon `exit` ja kokeilin komentoa uudestaan, nyt kaikki toimii. 
+
+<img width="553" height="368" alt="h5_4" src="https://github.com/user-attachments/assets/5ef71518-7bc7-484e-9555-e9d1dbd708de" />
+
 
 Avasin myös h3-koneen komennolla `xterm h3`. Mutta siirryin takas h1-terminaaliin. Ajoin siellä komennon `arp -n` MAC-osoitteiden selvittämiseksi. Sitten valmistelin h3-koneen komennolla `sysctl -w net.ipv4.ip_forward=1`. Se mahdollistaa IP-reitittämisen. Seuraavaksi ajoin komennot `iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-ports 22`, sekä `tcpdump -i h3-eth0 -w arp-p.pcap &`.
 
