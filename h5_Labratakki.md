@@ -78,17 +78,17 @@ Tässä tapahtumaketju on siis:
 Avasin 3 uutta terminaalia, h1, h2, ja h3. h1-terminaalissa käynnistin TCP-palvelimen komennolla `python3 tcp_server.py`, ja h2-terminaalilla käynnistin h2:n palvelimen asiakkaaksi komennolla `python3 tcp_client.py`.
 Terminaaleissa näkyy "Hello from Host 1" ja "Hello from Host 2", eli yhteys toimi.
 
-<img width="897" height="601" alt="h5_12" src="https://github.com/user-attachments/assets/10e1be3c-4eaa-460b-a49d-2131d9599c9f" />
+<img width="1097" height="801" alt="h5_12" src="https://github.com/user-attachments/assets/10e1be3c-4eaa-460b-a49d-2131d9599c9f" />
 
 Seuraavaksi suoritin h3:lla komennon `sudo python3 sniff_tcp_session.py`. Loin yhteyden uudestaan h2-terminaalissa, ja nyt h3 näki myös tapahtumat. Yritin ajaa myös hijack-skriptin, mutta h1, ja h2 välisissä TCP-yhteyksissä yhteys sulkeutuu automaattisesti ensimmäisten "Hello" viestien jälkeen, joten en osaa toteuttaa sitä. En tiedä miten edetä.
 
-<img width="859" height="595" alt="h5_14" src="https://github.com/user-attachments/assets/257fabe5-42c8-4fb2-8ceb-c9a7f5cb88c0" />
+<img width="1059" height="705" alt="h5_14" src="https://github.com/user-attachments/assets/257fabe5-42c8-4fb2-8ceb-c9a7f5cb88c0" />
 
 ## c) TCP SYN-Flood
 
 Tätä en enää saanut toimimaan yritin suorittaa hyökkäystä `02-SDN_DDoS_Simulation-tryout`-hakemistossa, mutta jumitti heti ekaan komentoon ja mikään ei tehoa.
 
-<img width="450" height="297" alt="h5_15" src="https://github.com/user-attachments/assets/1b71ae06-9a73-4800-a915-80a16adb1f08" />
+<img width="1050" height="707" alt="h5_15" src="https://github.com/user-attachments/assets/1b71ae06-9a73-4800-a915-80a16adb1f08" />
 
 Yritin myös toista terminaalia jossa suoritin komennon `PYTHONPATH=. ryu-manager main.py` ohjeiden mukaan, mutta se ei toiminut myöskään.
 
