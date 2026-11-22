@@ -65,7 +65,7 @@ Seuraavaksi yritin avata h1 terminaalin komennolla `xterm h1`, mutta komento ei 
 
 Seuraavaksi avasin h3-terminaalin ja suoritin siellä `python3 spoof_icmp.py`. h2-terminaalissa ajoin pingin uudestaan, ja näin paketit h3-terminaalissa. Ilmeisesti toimii.
 
-<img width="811" height="568" alt="h5_11" src="https://github.com/user-attachments/assets/7b2285c1-cda3-477b-9fe2-5560605c4b7e" />
+<img width="1011" height="868" alt="h5_11" src="https://github.com/user-attachments/assets/7b2285c1-cda3-477b-9fe2-5560605c4b7e" />
 
 Tässä tapahtumaketju on siis: 
 * h2 lähetti pingauspyynnön
