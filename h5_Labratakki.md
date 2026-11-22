@@ -82,7 +82,7 @@ Terminaaleissa näkyy "Hello from Host 1" ja "Hello from Host 2", eli yhteys toi
 
 Seuraavaksi suoritin h3:lla komennon `sudo python3 sniff_tcp_session.py`. Loin yhteyden uudestaan h2-terminaalissa, ja nyt h3 näki myös tapahtumat. Yritin ajaa myös hijack-skriptin, mutta h1, ja h2 välisissä TCP-yhteyksissä yhteys sulkeutuu automaattisesti ensimmäisten "Hello" viestien jälkeen, joten en osaa toteuttaa sitä. En tiedä miten edetä.
 
-<img width="559" height="395" alt="h5_14" src="https://github.com/user-attachments/assets/257fabe5-42c8-4fb2-8ceb-c9a7f5cb88c0" />
+<img width="859" height="595" alt="h5_14" src="https://github.com/user-attachments/assets/257fabe5-42c8-4fb2-8ceb-c9a7f5cb88c0" />
 
 ## c) TCP SYN-Flood
 
