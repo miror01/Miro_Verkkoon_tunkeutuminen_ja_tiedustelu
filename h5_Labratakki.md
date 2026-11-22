@@ -33,7 +33,7 @@ on itse hyökkäys.
 
 Seuraavaksi siirryin h1-terminaaliin, josta koitin ottaa ssh-yhteyttä h2:een. Sain ohjeissakin näkyvän tulosteen.
 
-<img width="602" height="311" alt="h5_6" src="https://github.com/user-attachments/assets/e87ae112-1851-43db-a2ac-3777f3117289" />
+<img width="702" height="411" alt="h5_6" src="https://github.com/user-attachments/assets/e87ae112-1851-43db-a2ac-3777f3117289" />
 
 Kaikki toimii, seuraavaksi poistin vanhan avaimen h1:stä komennolla `ssh-keygen -R h2`, ja loin uuden yhteyden `ssh h2`. Nyt, h1 terminaalissa näyttää siltä, että olisi h2:ssa, ja näen tulosteen h3:n sshesamessa.
 
