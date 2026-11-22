@@ -6,15 +6,15 @@ Aloitin tehtävän luomalla Mininet-koneen, kirjautumalla siihen sisälle ja aja
 
 Nyt olemme sisällä mininetissä. Syötin ensiksi komennon `ryu-manager ryu.app.simple_switch_13` joka käynnistää Ryu SDN-ohjaimen.
 
-<img width="344" height="147" alt="h5_1" src="https://github.com/user-attachments/assets/657347b9-f46d-4aab-b155-3e4b2919868d" />
+<img width="344" height="247" alt="h5_1" src="https://github.com/user-attachments/assets/657347b9-f46d-4aab-b155-3e4b2919868d" />
 
 Se toimi. Avasin uuden terminaalin kalissa ja loin SSH-yhteyden uudestaan. Siellä käynnistin verkko-yhteyden ja 3 virtuaalista konetta komennolla `sudo mn --topo single,3 --mac --switch ovsk --controller remote`.
 
-<img width="388" height="194" alt="h5_2" src="https://github.com/user-attachments/assets/d839c7f4-2137-4e0d-bef9-c1b41385d11f" />
+<img width="388" height="250" alt="h5_2" src="https://github.com/user-attachments/assets/d839c7f4-2137-4e0d-bef9-c1b41385d11f" />
 
 Kokeilin yhteydet komennolla `pingall` jossa kaikki pingit meni läpi, kun tuloste oli `Results: 0% dropped (6/6 received)`. 
 
-<img width="269" height="116" alt="h5_3" src="https://github.com/user-attachments/assets/6a522778-a60e-4315-8905-7e3d3e2de37c" />
+<img width="269" height="216" alt="h5_3" src="https://github.com/user-attachments/assets/6a522778-a60e-4315-8905-7e3d3e2de37c" />
 
 Yritin avata koneen h1 terminaalin komennolla `xterm h1`, mutta sain virheilmoituksen. Löysin ratkaisuksi kokeilla aiempaa "sudo mn" komentoa -E parametrilla, joten kokeilin sitä. Kirjoitin mininettiin komennon `exit` ja kokeilin komentoa uudestaan, nyt kaikki toimii. 
 
@@ -40,7 +40,7 @@ Kaikki toimii, seuraavaksi poistin vanhan avaimen h1:stä komennolla `ssh-keygen
 
 Myös Wiresharkissa näkyy.
 
-<img width="652" height="203" alt="h5_8" src="https://github.com/user-attachments/assets/fb906679-d1c7-4635-82a9-c5aa6058ed49" />
+<img width="652" height="303" alt="h5_8" src="https://github.com/user-attachments/assets/fb906679-d1c7-4635-82a9-c5aa6058ed49" />
 
 Tässä siis h3 alkoi lähettää vääriä ARP-vastauksia h1:lle ja h2:lle, joissa se ilmoitti MAC-osoitteet väärin. Seurauksena h1 ja h2 tallensivat tiedot myös väärin, ja alkoivat lähettää liikennettä h3:n kautta. Kyseessä
 on tunnettu "Man in the Middle"-tyylinen hyökkäys. Kun loin h1:ltä yhteyttä h2:een, se menikin h3:n sshesamen kautta.
@@ -77,7 +77,7 @@ Tässä tapahtumaketju on siis:
 Avasin 3 uutta terminaalia, h1, h2, ja h3. h1-terminaalissa käynnistin TCP-palvelimen komennolla `python3 tcp_server.py`, ja h2-terminaalilla käynnistin h2:n palvelimen asiakkaaksi komennolla `python3 tcp_client.py`.
 Terminaaleissa näkyy "Hello from Host 1" ja "Hello from Host 2", eli yhteys toimi.
 
-<img width="497" height="201" alt="h5_12" src="https://github.com/user-attachments/assets/10e1be3c-4eaa-460b-a49d-2131d9599c9f" />
+<img width="497" height="301" alt="h5_12" src="https://github.com/user-attachments/assets/10e1be3c-4eaa-460b-a49d-2131d9599c9f" />
 
 Seuraavaksi suoritin h3:lla komennon `sudo python3 sniff_tcp_session.py`. Loin yhteyden uudestaan h2-terminaalissa, ja nyt h3 näki myös tapahtumat. Yritin ajaa myös hijack-skriptin, mutta h1, ja h2 välisissä TCP-yhteyksissä yhteys sulkeutuu automaattisesti ensimmäisten "Hello" viestien jälkeen, joten en osaa toteuttaa sitä. En tiedä miten edetä.
 
@@ -87,7 +87,7 @@ Seuraavaksi suoritin h3:lla komennon `sudo python3 sniff_tcp_session.py`. Loin y
 
 Tätä en enää saanut toimimaan yritin suorittaa hyökkäystä `02-SDN_DDoS_Simulation-tryout`-hakemistossa, mutta jumitti heti ekaan komentoon ja mikään ei tehoa.
 
-<img width="450" height="197" alt="h5_15" src="https://github.com/user-attachments/assets/1b71ae06-9a73-4800-a915-80a16adb1f08" />
+<img width="450" height="297" alt="h5_15" src="https://github.com/user-attachments/assets/1b71ae06-9a73-4800-a915-80a16adb1f08" />
 
 Yritin myös toista terminaalia jossa suoritin komennon `PYTHONPATH=. ryu-manager main.py` ohjeiden mukaan, mutta se ei toiminut myöskään.
 
