@@ -4,7 +4,7 @@ Aloitin tehtävän luomalla Mininet-koneen, kirjautumalla siihen sisälle ja aja
 
 <img width="579" height="224" alt="h5_0" src="https://github.com/user-attachments/assets/f7e54a1f-cb16-44bb-9a35-c5ef30894a68" />
 
-Nyt olemme sisällä minetissä. Syötin ensiksi komennon `ryu-manager ryu.app.simple_switch_13` joka käynnistää Ryu SDN-ohjaimen.
+Nyt olemme sisällä mininetissä. Syötin ensiksi komennon `ryu-manager ryu.app.simple_switch_13` joka käynnistää Ryu SDN-ohjaimen.
 
 <img width="344" height="147" alt="h5_1" src="https://github.com/user-attachments/assets/657347b9-f46d-4aab-b155-3e4b2919868d" />
 
